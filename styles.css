@@ -1,14 +1,44 @@
+body {
+    margin: 0em;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: 'Fjalla One', sans-serif; 
+}
+
 .cover {
     height: 400px;
     color: white;
-    background-image: url(https://i.ibb.co/5nVgsvn/imagen-portada.jpg);
+    background-image: url(https://github.com/Carlosestc1/CarGuPizza/blob/main/assets/imagen-portada.jpg?raw=true);
     background-size: cover;
     background-position: center;
     background-color: rgba(0, 0 ,0 , 0.5);
     background-blend-mode: darken;
 }
 
+.cover-2 {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+}
+
+.card {
+    border: 0 !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5), 0 2px 4px -1px rgba(0, 0, 0, 0.06)
+}
+
+.card-title {
+    min-height: 3rem;
+}
+
+.card-text {
+    min-height: 5rem;
+}
+
 #logo-nav {
+    font-size: 30px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding-left: 25px;
     text-shadow: 4px;
